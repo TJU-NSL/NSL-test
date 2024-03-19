@@ -18,6 +18,9 @@ A quick breakdown of each of the files:
 pip install -r requirements.txt
 ```
 #### Usage
+
+The first run requires downloading the model, which is slow, please be patient.
+
 ```bash
 python testFile1_gpt2.py "Alan Turing theorized that computers would one day become"
 ```
