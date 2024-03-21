@@ -11,7 +11,7 @@ A quick breakdown of each of the files:
 
 * `encoder.py` contains the code for OpenAI's BPE Tokenizer.
 * `utils.py` contains the code to download and load the GPT-2 model weights, tokenizer, and hyper-parameters.
-* `testFile1_gpt2.py` contains the actual GPT model and generation code which we can run as a python script, but it is an incomplete version. Believe that you can successfully complete it😎👍.
+* `NSL-gpt2.py` contains the actual GPT model and generation code which we can run as a python script, but it is an incomplete version. Believe that you can successfully complete it😎👍.
 
 #### Dependencies
 ```bash
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 The first run requires downloading the model, which is slow, please be patient.
 
 ```bash
-python testFile1_gpt2.py "Alan Turing theorized that computers would one day become"
+python NSL-gpt2.py "Alan Turing theorized that computers would one day become"
 ```
 
 Which generates
