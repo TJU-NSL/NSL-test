@@ -1,5 +1,5 @@
 # NSL-test
-**Self-attention** Bilibili Li Hongyi’s explanation video: https://www.bilibili.com/video/BV1Xp4y1b7ih?p=1&vd_source=ec612142265d2ae27563dbd29b547eae
+**Self-attention** Bilibili Li Hongyi’s explanation video: https://www.bilibili.com/video/BV1Xp4y1b7ih
 
 KV Cache introduction: https://zhuanlan.zhihu.com/p/630832593
 
