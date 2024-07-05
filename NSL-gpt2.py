@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+import time
 import math
 torch.set_printoptions(8)
 
@@ -183,7 +184,10 @@ def main(prompt: str, n_tokens_to_generate: int = 5, model_size: str = "124M", m
     assert len(input_ids) + n_tokens_to_generate < hparams["n_ctx"]
 
     # generate output ids
+    start = time.time()
     output_ids = generate(input_ids, params, hparams["n_head"], n_tokens_to_generate)
+    end = time.time()
+    print(f"Time taken to generate {n_tokens_to_generate} tokens: {end - start:.2f}s")
 
     # decode the ids back into a string
     output_text = encoder.decode(output_ids)
