@@ -36,7 +36,7 @@ The computer is a machine that can perform complex calculations, and it can perf
 We only used the **124M** model in this test. You can also control the number of tokens to generate, the model size (one of `["124M", "355M", "774M", "1558M"]`), and the directory to save the models:
 
 ```bash
-python gpt2.py \
+python NSL-gpt2.py \
     "Alan Turing theorized that computers would one day become" \
     --n_tokens_to_generate 40 \
     --model_size "124M" \
